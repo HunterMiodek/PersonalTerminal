@@ -1,12 +1,3 @@
-# Fallout3Terminal
-
-Fallout3Terminal is my own version of a Fallout 3/4/NV Terminal operating system, complete with the ability to write journal entries, and in-game sounds from Fallout 3 itself! I tried to recreate as many little details there are in the games, like the RobCo OS header and such, though you will notice I took quite a few liberties.
-
-This is actually just a bash script that can be run from the terminal, and the output is displaying on a highly customizable retro terminal called cool-retro-terminal. 
-
-See my demonstration video of this on reddit, the post can be found here:
-
-[https://www.reddit.com/r/linux/comments/dw9gfw/i_recreated_a_fallout_3_terminal_as_a_linux_bash/](https://www.reddit.com/r/linux/comments/dw9gfw/i_recreated_a_fallout_3_terminal_as_a_linux_bash/)
 
 # REQUIREMENTS
 
@@ -27,9 +18,9 @@ Thanks to gitHub user iFloris, there are now instructions to run this on MacOS! 
 To run this script clone this repository, make "terminalscript" an executable , and run `cool-retro-term` as follows:
 
 ```bash
-git clone https://github.com/fohtla/Fallout3Terminal
-chmod +x $HOME/Fallout3Terminal/terminalscript
-cool-retro-term --fullscreen --noclose -e bash $HOME/Fallout3Terminal/terminalscript
+git clone https://github.com/HunterMiodek/PersonalTerminal
+chmod +x $HOME/PersonalTerminal/terminalscript
+cool-retro-term --fullscreen --noclose -e bash $HOME/PersonalTerminal/terminalscript
 ```
 
 You can also enter that command in your startup manager, as well as make launcher with it!
@@ -38,14 +29,6 @@ You can also enter that command in your startup manager, as well as make launche
 
  ( Instructions provided by user iFloris! )
 
-* Have homebrew installed
-   * Run the following:
-```
-brew install sox pv
-brew cask install cool-retro-term
-git clone https://github.com/fohtla/Fallout3Terminal
-/Applications/cool-retro-term.app/Contents/MacOS/cool-retro-term --fullscreen --noclose -e bash $HOME/Fallout3Terminal/terminalscript
-```
 
 # Additional notes
 
